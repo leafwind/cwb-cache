@@ -1,0 +1,4 @@
+cwb_auth_key.py
+*.pyc
+*~
+__/
