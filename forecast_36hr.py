@@ -7,6 +7,9 @@ import datetime
 
 from cwb_auth_key import AUTH_KEY
 from constants import CWB_URL
+from predict_code_map import PREDICT_CODE_MAP
+
+logging.basicConfig(level=logging.DEBUG)
 
 def get_data():
     #'{dataid}?limit={limit}&offset={offset}&format={format}&locationName={locationName}&elementName={elementName}&sort={sort}'
@@ -22,7 +25,7 @@ def get_data():
         return False
     
     output = {}
-    # data['records']['datasetDescription']
+    logging.info('start process: {}'.format(data['records']['datasetDescription'].encode('utf-8')))
     locations = data['records']['location']
     for l in locations:
         location_name = l['locationName']
@@ -39,12 +42,14 @@ def get_data():
                 if time_key not in output[location_name]:
                     output[location_name][time_key] = {}
                 forecast_status = p['parameter']['parameterName']
-                if factor_name not in ['CI', 'Wx']:
-                    forecast_status = int(forecast_status)
-                elif factor_name == 'Wx':
+                if factor_name == 'Wx':
                     forecast_value = p['parameter']['parameterValue']
-                    output[location_name][time_key]['Wx_value'] = int(forecast_value)
-                output[location_name][time_key][factor_name] = forecast_status
+                    output[location_name][time_key][factor_name] = PREDICT_CODE_MAP[int(forecast_value)]
+                elif factor_name in ['MaxT', 'MinT', 'PoP']:
+                    forecast_status = int(forecast_status)
+                    output[location_name][time_key][factor_name] = forecast_status
+                elif factor_name == 'CI':
+                    output[location_name][time_key][factor_name] = forecast_status
 
     with open('forecast_36hr.json', 'w') as fp:
         json.dump(output, fp)
