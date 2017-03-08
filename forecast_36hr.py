@@ -51,7 +51,7 @@ def get_data():
                 elif factor_name == 'CI':
                     output[location_name][time_key][factor_name] = forecast_status
 
-    with open('forecast_36hr.json', 'w') as fp:
+    with open('output.json', 'w') as fp:
         json.dump(output, fp)
 
 if __name__ == '__main__':
