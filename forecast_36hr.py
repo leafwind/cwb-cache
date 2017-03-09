@@ -91,8 +91,13 @@ def dump_dict_to_json_file(dict_data, filename):
         json.dump(dict_data, fp)
 
 if __name__ == '__main__':
-    json_data = get_data_from_cwb('F-C0032-001', AUTH_KEY, {'locationName': '臺北市', 'limit': 1})
+    json_data = get_data_from_cwb('F-C0032-001', AUTH_KEY, {})
     dict_data = parse_json_to_dict(json_data)
     # dump_dict_to_json_file(dict_data, 'output.json')
     check_or_create_sqlite_table()
     insert_data(dict_data)
+
+    #json_data = get_data_from_cwb('F-D0047-001', AUTH_KEY, {})
+    #dict_data = parse_json_to_dict(json_data)
+    #check_or_create_sqlite_table()
+    #insert_data(dict_data)

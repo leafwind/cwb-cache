@@ -1,0 +1,1850 @@
+{
+  "success": "true",
+  "result": {
+    "resource_id": "F-D0047-001",
+    "fields": [
+      {
+        "id": "dataid",
+        "type": "String"
+      },
+      {
+        "id": "geocode",
+        "type": "String"
+      },
+      {
+        "id": "locationsName",
+        "type": "String"
+      },
+      {
+        "id": "locationName",
+        "type": "String"
+      },
+      {
+        "id": "lat",
+        "type": "Float"
+      },
+      {
+        "id": "lon",
+        "type": "Float"
+      },
+      {
+        "id": "datasetDescription",
+        "type": "String"
+      },
+      {
+        "id": "datasetLanguage",
+        "type": "String"
+      },
+      {
+        "id": "elementName",
+        "type": "String"
+      },
+      {
+        "id": "elementValue",
+        "type": "String"
+      },
+      {
+        "id": "elementMeasure",
+        "type": "String"
+      },
+      {
+        "id": "parameterName",
+        "type": "String"
+      },
+      {
+        "id": "parameterValue",
+        "type": "String"
+      },
+      {
+        "id": "parameterUnit",
+        "type": "String"
+      },
+      {
+        "id": "startTime",
+        "type": "Timestamp"
+      },
+      {
+        "id": "endTime",
+        "type": "Timestamp"
+      },
+      {
+        "id": "dataTime",
+        "type": "Timestamp"
+      }
+    ]
+  },
+  "records": {
+    "contentDescription": "臺灣各鄉鎮市區未來2天(逐3小時)及未來1週天氣預報",
+    "locations": [
+      {
+        "datasetDescription": "宜蘭縣未來2天天氣預報",
+        "locationsName": "宜蘭縣",
+        "dataid": "D0047-001",
+        "location": [
+          {
+            "locationName": "羅東鎮",
+            "geocode": "1000202",
+            "lat": "24.6787",
+            "lon": "121.759",
+            "weatherElement": [
+              {
+                "elementName": "Wx",
+                "time": [
+                  {
+                    "startTime": "2017-03-11 12:00:00",
+                    "endTime": "2017-03-11 15:00:00",
+                    "elementValue": "陰天",
+                    "parameter": [
+                      {
+                        "parameterName": "天氣圖示代碼",
+                        "parameterValue": "03"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2017-03-09 18:00:00",
+                    "endTime": "2017-03-09 21:00:00",
+                    "elementValue": "短暫陣雨",
+                    "parameter": [
+                      {
+                        "parameterName": "天氣圖示代碼",
+                        "parameterValue": "26"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2017-03-11 21:00:00",
+                    "endTime": "2017-03-12 00:00:00",
+                    "elementValue": "陰天",
+                    "parameter": [
+                      {
+                        "parameterName": "天氣圖示代碼",
+                        "parameterValue": "03"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2017-03-10 03:00:00",
+                    "endTime": "2017-03-10 06:00:00",
+                    "elementValue": "陣雨或雷雨",
+                    "parameter": [
+                      {
+                        "parameterName": "天氣圖示代碼",
+                        "parameterValue": "36"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2017-03-12 06:00:00",
+                    "endTime": "2017-03-12 09:00:00",
+                    "elementValue": "陰天",
+                    "parameter": [
+                      {
+                        "parameterName": "天氣圖示代碼",
+                        "parameterValue": "03"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2017-03-10 12:00:00",
+                    "endTime": "2017-03-10 15:00:00",
+                    "elementValue": "陣雨或雷雨",
+                    "parameter": [
+                      {
+                        "parameterName": "天氣圖示代碼",
+                        "parameterValue": "36"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2017-03-12 15:00:00",
+                    "endTime": "2017-03-12 18:00:00",
+                    "elementValue": "短暫雨",
+                    "parameter": [
+                      {
+                        "parameterName": "天氣圖示代碼",
+                        "parameterValue": "26"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2017-03-10 21:00:00",
+                    "endTime": "2017-03-11 00:00:00",
+                    "elementValue": "陣雨",
+                    "parameter": [
+                      {
+                        "parameterName": "天氣圖示代碼",
+                        "parameterValue": "04"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2017-03-12 03:00:00",
+                    "endTime": "2017-03-12 06:00:00",
+                    "elementValue": "短暫雨",
+                    "parameter": [
+                      {
+                        "parameterName": "天氣圖示代碼",
+                        "parameterValue": "26"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2017-03-10 09:00:00",
+                    "endTime": "2017-03-10 12:00:00",
+                    "elementValue": "陣雨或雷雨",
+                    "parameter": [
+                      {
+                        "parameterName": "天氣圖示代碼",
+                        "parameterValue": "36"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2017-03-12 12:00:00",
+                    "endTime": "2017-03-12 15:00:00",
+                    "elementValue": "短暫雨",
+                    "parameter": [
+                      {
+                        "parameterName": "天氣圖示代碼",
+                        "parameterValue": "26"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2017-03-10 18:00:00",
+                    "endTime": "2017-03-10 21:00:00",
+                    "elementValue": "陣雨",
+                    "parameter": [
+                      {
+                        "parameterName": "天氣圖示代碼",
+                        "parameterValue": "04"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2017-03-11 03:00:00",
+                    "endTime": "2017-03-11 06:00:00",
+                    "elementValue": "短暫雨",
+                    "parameter": [
+                      {
+                        "parameterName": "天氣圖示代碼",
+                        "parameterValue": "26"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2017-03-10 15:00:00",
+                    "endTime": "2017-03-10 18:00:00",
+                    "elementValue": "陣雨或雷雨",
+                    "parameter": [
+                      {
+                        "parameterName": "天氣圖示代碼",
+                        "parameterValue": "36"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2017-03-11 00:00:00",
+                    "endTime": "2017-03-11 03:00:00",
+                    "elementValue": "短暫雨",
+                    "parameter": [
+                      {
+                        "parameterName": "天氣圖示代碼",
+                        "parameterValue": "26"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2017-03-11 09:00:00",
+                    "endTime": "2017-03-11 12:00:00",
+                    "elementValue": "陰天",
+                    "parameter": [
+                      {
+                        "parameterName": "天氣圖示代碼",
+                        "parameterValue": "03"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2017-03-10 00:00:00",
+                    "endTime": "2017-03-10 03:00:00",
+                    "elementValue": "陣雨或雷雨",
+                    "parameter": [
+                      {
+                        "parameterName": "天氣圖示代碼",
+                        "parameterValue": "36"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2017-03-11 18:00:00",
+                    "endTime": "2017-03-11 21:00:00",
+                    "elementValue": "陰天",
+                    "parameter": [
+                      {
+                        "parameterName": "天氣圖示代碼",
+                        "parameterValue": "03"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2017-03-11 06:00:00",
+                    "endTime": "2017-03-11 09:00:00",
+                    "elementValue": "短暫雨",
+                    "parameter": [
+                      {
+                        "parameterName": "天氣圖示代碼",
+                        "parameterValue": "26"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2017-03-11 15:00:00",
+                    "endTime": "2017-03-11 18:00:00",
+                    "elementValue": "陰天",
+                    "parameter": [
+                      {
+                        "parameterName": "天氣圖示代碼",
+                        "parameterValue": "03"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2017-03-09 21:00:00",
+                    "endTime": "2017-03-10 00:00:00",
+                    "elementValue": "陣雨或雷雨",
+                    "parameter": [
+                      {
+                        "parameterName": "天氣圖示代碼",
+                        "parameterValue": "36"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2017-03-12 00:00:00",
+                    "endTime": "2017-03-12 03:00:00",
+                    "elementValue": "短暫雨",
+                    "parameter": [
+                      {
+                        "parameterName": "天氣圖示代碼",
+                        "parameterValue": "26"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2017-03-10 06:00:00",
+                    "endTime": "2017-03-10 09:00:00",
+                    "elementValue": "陣雨或雷雨",
+                    "parameter": [
+                      {
+                        "parameterName": "天氣圖示代碼",
+                        "parameterValue": "36"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2017-03-12 09:00:00",
+                    "endTime": "2017-03-12 12:00:00",
+                    "elementValue": "多雲",
+                    "parameter": [
+                      {
+                        "parameterName": "天氣圖示代碼",
+                        "parameterValue": "02"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "elementName": "PoP",
+                "elementMeasure": "%",
+                "time": [
+                  {
+                    "startTime": "2017-03-09 18:00:00",
+                    "endTime": "2017-03-10 06:00:00",
+                    "elementValue": "80"
+                  },
+                  {
+                    "startTime": "2017-03-12 06:00:00",
+                    "endTime": "2017-03-12 18:00:00",
+                    "elementValue": "30"
+                  },
+                  {
+                    "startTime": "2017-03-11 18:00:00",
+                    "endTime": "2017-03-12 06:00:00",
+                    "elementValue": "30"
+                  },
+                  {
+                    "startTime": "2017-03-11 06:00:00",
+                    "endTime": "2017-03-11 18:00:00",
+                    "elementValue": "40"
+                  },
+                  {
+                    "startTime": "2017-03-10 18:00:00",
+                    "endTime": "2017-03-11 06:00:00",
+                    "elementValue": "70"
+                  },
+                  {
+                    "startTime": "2017-03-10 06:00:00",
+                    "endTime": "2017-03-10 18:00:00",
+                    "elementValue": "90"
+                  }
+                ]
+              },
+              {
+                "elementName": "AT",
+                "elementMeasure": "C",
+                "time": [
+                  {
+                    "dataTime": "2017-03-11 15:00:00",
+                    "elementValue": "26"
+                  },
+                  {
+                    "dataTime": "2017-03-10 18:00:00",
+                    "elementValue": "19"
+                  },
+                  {
+                    "dataTime": "2017-03-11 18:00:00",
+                    "elementValue": "24"
+                  },
+                  {
+                    "dataTime": "2017-03-10 21:00:00",
+                    "elementValue": "18"
+                  },
+                  {
+                    "dataTime": "2017-03-12 12:00:00",
+                    "elementValue": "26"
+                  },
+                  {
+                    "dataTime": "2017-03-10 00:00:00",
+                    "elementValue": "16"
+                  },
+                  {
+                    "dataTime": "2017-03-09 18:00:00",
+                    "elementValue": "17"
+                  },
+                  {
+                    "dataTime": "2017-03-12 06:00:00",
+                    "elementValue": "19"
+                  },
+                  {
+                    "dataTime": "2017-03-11 09:00:00",
+                    "elementValue": "22"
+                  },
+                  {
+                    "dataTime": "2017-03-09 21:00:00",
+                    "elementValue": "16"
+                  },
+                  {
+                    "dataTime": "2017-03-12 09:00:00",
+                    "elementValue": "23"
+                  },
+                  {
+                    "dataTime": "2017-03-11 12:00:00",
+                    "elementValue": "26"
+                  },
+                  {
+                    "dataTime": "2017-03-10 15:00:00",
+                    "elementValue": "22"
+                  },
+                  {
+                    "dataTime": "2017-03-10 09:00:00",
+                    "elementValue": "19"
+                  },
+                  {
+                    "dataTime": "2017-03-12 00:00:00",
+                    "elementValue": "21"
+                  },
+                  {
+                    "dataTime": "2017-03-10 12:00:00",
+                    "elementValue": "21"
+                  },
+                  {
+                    "dataTime": "2017-03-12 03:00:00",
+                    "elementValue": "19"
+                  },
+                  {
+                    "dataTime": "2017-03-11 06:00:00",
+                    "elementValue": "16"
+                  },
+                  {
+                    "dataTime": "2017-03-11 00:00:00",
+                    "elementValue": "18"
+                  },
+                  {
+                    "dataTime": "2017-03-10 03:00:00",
+                    "elementValue": "16"
+                  },
+                  {
+                    "dataTime": "2017-03-12 15:00:00",
+                    "elementValue": "26"
+                  },
+                  {
+                    "dataTime": "2017-03-11 03:00:00",
+                    "elementValue": "17"
+                  },
+                  {
+                    "dataTime": "2017-03-10 06:00:00",
+                    "elementValue": "16"
+                  },
+                  {
+                    "dataTime": "2017-03-11 21:00:00",
+                    "elementValue": "22"
+                  }
+                ]
+              },
+              {
+                "elementName": "T",
+                "elementMeasure": "C",
+                "time": [
+                  {
+                    "dataTime": "2017-03-11 15:00:00",
+                    "elementValue": "23"
+                  },
+                  {
+                    "dataTime": "2017-03-10 18:00:00",
+                    "elementValue": "18"
+                  },
+                  {
+                    "dataTime": "2017-03-11 18:00:00",
+                    "elementValue": "21"
+                  },
+                  {
+                    "dataTime": "2017-03-10 21:00:00",
+                    "elementValue": "17"
+                  },
+                  {
+                    "dataTime": "2017-03-10 00:00:00",
+                    "elementValue": "16"
+                  },
+                  {
+                    "dataTime": "2017-03-12 12:00:00",
+                    "elementValue": "24"
+                  },
+                  {
+                    "dataTime": "2017-03-09 18:00:00",
+                    "elementValue": "16"
+                  },
+                  {
+                    "dataTime": "2017-03-12 06:00:00",
+                    "elementValue": "18"
+                  },
+                  {
+                    "dataTime": "2017-03-11 09:00:00",
+                    "elementValue": "20"
+                  },
+                  {
+                    "dataTime": "2017-03-09 21:00:00",
+                    "elementValue": "16"
+                  },
+                  {
+                    "dataTime": "2017-03-12 09:00:00",
+                    "elementValue": "21"
+                  },
+                  {
+                    "dataTime": "2017-03-11 12:00:00",
+                    "elementValue": "23"
+                  },
+                  {
+                    "dataTime": "2017-03-10 15:00:00",
+                    "elementValue": "20"
+                  },
+                  {
+                    "dataTime": "2017-03-10 09:00:00",
+                    "elementValue": "18"
+                  },
+                  {
+                    "dataTime": "2017-03-12 00:00:00",
+                    "elementValue": "19"
+                  },
+                  {
+                    "dataTime": "2017-03-10 12:00:00",
+                    "elementValue": "20"
+                  },
+                  {
+                    "dataTime": "2017-03-12 03:00:00",
+                    "elementValue": "18"
+                  },
+                  {
+                    "dataTime": "2017-03-11 06:00:00",
+                    "elementValue": "16"
+                  },
+                  {
+                    "dataTime": "2017-03-11 00:00:00",
+                    "elementValue": "17"
+                  },
+                  {
+                    "dataTime": "2017-03-12 15:00:00",
+                    "elementValue": "24"
+                  },
+                  {
+                    "dataTime": "2017-03-10 03:00:00",
+                    "elementValue": "16"
+                  },
+                  {
+                    "dataTime": "2017-03-11 03:00:00",
+                    "elementValue": "16"
+                  },
+                  {
+                    "dataTime": "2017-03-10 06:00:00",
+                    "elementValue": "16"
+                  },
+                  {
+                    "dataTime": "2017-03-11 21:00:00",
+                    "elementValue": "20"
+                  }
+                ]
+              },
+              {
+                "elementName": "RH",
+                "elementMeasure": "%",
+                "time": [
+                  {
+                    "dataTime": "2017-03-11 15:00:00",
+                    "elementValue": "91"
+                  },
+                  {
+                    "dataTime": "2017-03-10 18:00:00",
+                    "elementValue": "91"
+                  },
+                  {
+                    "dataTime": "2017-03-11 18:00:00",
+                    "elementValue": "94"
+                  },
+                  {
+                    "dataTime": "2017-03-10 21:00:00",
+                    "elementValue": "92"
+                  },
+                  {
+                    "dataTime": "2017-03-10 00:00:00",
+                    "elementValue": "89"
+                  },
+                  {
+                    "dataTime": "2017-03-12 12:00:00",
+                    "elementValue": "83"
+                  },
+                  {
+                    "dataTime": "2017-03-09 18:00:00",
+                    "elementValue": "85"
+                  },
+                  {
+                    "dataTime": "2017-03-12 06:00:00",
+                    "elementValue": "87"
+                  },
+                  {
+                    "dataTime": "2017-03-11 09:00:00",
+                    "elementValue": "89"
+                  },
+                  {
+                    "dataTime": "2017-03-09 21:00:00",
+                    "elementValue": "88"
+                  },
+                  {
+                    "dataTime": "2017-03-12 09:00:00",
+                    "elementValue": "85"
+                  },
+                  {
+                    "dataTime": "2017-03-11 12:00:00",
+                    "elementValue": "89"
+                  },
+                  {
+                    "dataTime": "2017-03-10 15:00:00",
+                    "elementValue": "89"
+                  },
+                  {
+                    "dataTime": "2017-03-10 09:00:00",
+                    "elementValue": "91"
+                  },
+                  {
+                    "dataTime": "2017-03-12 00:00:00",
+                    "elementValue": "92"
+                  },
+                  {
+                    "dataTime": "2017-03-10 12:00:00",
+                    "elementValue": "91"
+                  },
+                  {
+                    "dataTime": "2017-03-12 03:00:00",
+                    "elementValue": "89"
+                  },
+                  {
+                    "dataTime": "2017-03-11 06:00:00",
+                    "elementValue": "89"
+                  },
+                  {
+                    "dataTime": "2017-03-11 00:00:00",
+                    "elementValue": "93"
+                  },
+                  {
+                    "dataTime": "2017-03-12 15:00:00",
+                    "elementValue": "85"
+                  },
+                  {
+                    "dataTime": "2017-03-10 03:00:00",
+                    "elementValue": "89"
+                  },
+                  {
+                    "dataTime": "2017-03-11 03:00:00",
+                    "elementValue": "90"
+                  },
+                  {
+                    "dataTime": "2017-03-10 06:00:00",
+                    "elementValue": "89"
+                  },
+                  {
+                    "dataTime": "2017-03-11 21:00:00",
+                    "elementValue": "95"
+                  }
+                ]
+              },
+              {
+                "elementName": "CI",
+                "time": [
+                  {
+                    "dataTime": "2017-03-11 15:00:00",
+                    "elementValue": "22.7",
+                    "parameter": [
+                      {
+                        "parameterName": "舒適度描述",
+                        "parameterValue": "舒適"
+                      }
+                    ]
+                  },
+                  {
+                    "dataTime": "2017-03-10 18:00:00",
+                    "elementValue": "17.9",
+                    "parameter": [
+                      {
+                        "parameterName": "舒適度描述",
+                        "parameterValue": "稍有寒意"
+                      }
+                    ]
+                  },
+                  {
+                    "dataTime": "2017-03-11 18:00:00",
+                    "elementValue": "20.8",
+                    "parameter": [
+                      {
+                        "parameterName": "舒適度描述",
+                        "parameterValue": "舒適"
+                      }
+                    ]
+                  },
+                  {
+                    "dataTime": "2017-03-10 21:00:00",
+                    "elementValue": "16.9",
+                    "parameter": [
+                      {
+                        "parameterName": "舒適度描述",
+                        "parameterValue": "稍有寒意"
+                      }
+                    ]
+                  },
+                  {
+                    "dataTime": "2017-03-10 00:00:00",
+                    "elementValue": "15.9",
+                    "parameter": [
+                      {
+                        "parameterName": "舒適度描述",
+                        "parameterValue": "寒冷"
+                      }
+                    ]
+                  },
+                  {
+                    "dataTime": "2017-03-12 12:00:00",
+                    "elementValue": "23.1",
+                    "parameter": [
+                      {
+                        "parameterName": "舒適度描述",
+                        "parameterValue": "舒適"
+                      }
+                    ]
+                  },
+                  {
+                    "dataTime": "2017-03-09 18:00:00",
+                    "elementValue": "15.8",
+                    "parameter": [
+                      {
+                        "parameterName": "舒適度描述",
+                        "parameterValue": "寒冷"
+                      }
+                    ]
+                  },
+                  {
+                    "dataTime": "2017-03-12 06:00:00",
+                    "elementValue": "17.6",
+                    "parameter": [
+                      {
+                        "parameterName": "舒適度描述",
+                        "parameterValue": "稍有寒意"
+                      }
+                    ]
+                  },
+                  {
+                    "dataTime": "2017-03-11 09:00:00",
+                    "elementValue": "19.6",
+                    "parameter": [
+                      {
+                        "parameterName": "舒適度描述",
+                        "parameterValue": "稍有寒意"
+                      }
+                    ]
+                  },
+                  {
+                    "dataTime": "2017-03-12 09:00:00",
+                    "elementValue": "20.3",
+                    "parameter": [
+                      {
+                        "parameterName": "舒適度描述",
+                        "parameterValue": "舒適"
+                      }
+                    ]
+                  },
+                  {
+                    "dataTime": "2017-03-09 21:00:00",
+                    "elementValue": "15.9",
+                    "parameter": [
+                      {
+                        "parameterName": "舒適度描述",
+                        "parameterValue": "寒冷"
+                      }
+                    ]
+                  },
+                  {
+                    "dataTime": "2017-03-11 12:00:00",
+                    "elementValue": "22.4",
+                    "parameter": [
+                      {
+                        "parameterName": "舒適度描述",
+                        "parameterValue": "舒適"
+                      }
+                    ]
+                  },
+                  {
+                    "dataTime": "2017-03-10 15:00:00",
+                    "elementValue": "19.6",
+                    "parameter": [
+                      {
+                        "parameterName": "舒適度描述",
+                        "parameterValue": "稍有寒意"
+                      }
+                    ]
+                  },
+                  {
+                    "dataTime": "2017-03-10 09:00:00",
+                    "elementValue": "17.7",
+                    "parameter": [
+                      {
+                        "parameterName": "舒適度描述",
+                        "parameterValue": "稍有寒意"
+                      }
+                    ]
+                  },
+                  {
+                    "dataTime": "2017-03-12 00:00:00",
+                    "elementValue": "18.8",
+                    "parameter": [
+                      {
+                        "parameterName": "舒適度描述",
+                        "parameterValue": "稍有寒意"
+                      }
+                    ]
+                  },
+                  {
+                    "dataTime": "2017-03-10 12:00:00",
+                    "elementValue": "19.6",
+                    "parameter": [
+                      {
+                        "parameterName": "舒適度描述",
+                        "parameterValue": "稍有寒意"
+                      }
+                    ]
+                  },
+                  {
+                    "dataTime": "2017-03-12 03:00:00",
+                    "elementValue": "17.7",
+                    "parameter": [
+                      {
+                        "parameterName": "舒適度描述",
+                        "parameterValue": "稍有寒意"
+                      }
+                    ]
+                  },
+                  {
+                    "dataTime": "2017-03-11 06:00:00",
+                    "elementValue": "15.9",
+                    "parameter": [
+                      {
+                        "parameterName": "舒適度描述",
+                        "parameterValue": "寒冷"
+                      }
+                    ]
+                  },
+                  {
+                    "dataTime": "2017-03-11 00:00:00",
+                    "elementValue": "16.8",
+                    "parameter": [
+                      {
+                        "parameterName": "舒適度描述",
+                        "parameterValue": "稍有寒意"
+                      }
+                    ]
+                  },
+                  {
+                    "dataTime": "2017-03-12 15:00:00",
+                    "elementValue": "23.1",
+                    "parameter": [
+                      {
+                        "parameterName": "舒適度描述",
+                        "parameterValue": "舒適"
+                      }
+                    ]
+                  },
+                  {
+                    "dataTime": "2017-03-10 03:00:00",
+                    "elementValue": "15.9",
+                    "parameter": [
+                      {
+                        "parameterName": "舒適度描述",
+                        "parameterValue": "寒冷"
+                      }
+                    ]
+                  },
+                  {
+                    "dataTime": "2017-03-11 03:00:00",
+                    "elementValue": "15.9",
+                    "parameter": [
+                      {
+                        "parameterName": "舒適度描述",
+                        "parameterValue": "寒冷"
+                      }
+                    ]
+                  },
+                  {
+                    "dataTime": "2017-03-10 06:00:00",
+                    "elementValue": "15.9",
+                    "parameter": [
+                      {
+                        "parameterName": "舒適度描述",
+                        "parameterValue": "寒冷"
+                      }
+                    ]
+                  },
+                  {
+                    "dataTime": "2017-03-11 21:00:00",
+                    "elementValue": "19.8",
+                    "parameter": [
+                      {
+                        "parameterName": "舒適度描述",
+                        "parameterValue": "稍有寒意"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "elementName": "WeatherDescription",
+                "time": [
+                  {
+                    "startTime": "2017-03-11 12:00:00",
+                    "endTime": "2017-03-11 15:00:00",
+                    "elementValue": "陰天。 降雨機率 20%。 溫度攝氏23度。 舒適。 偏東風 平均風速小於1級(每秒<=1公尺)。 相對濕度為89%。"
+                  },
+                  {
+                    "startTime": "2017-03-09 18:00:00",
+                    "endTime": "2017-03-09 21:00:00",
+                    "elementValue": "短暫陣雨。 降雨機率 80%。 溫度攝氏16度。 寒冷。 偏南風 平均風速小於1級(每秒<=1公尺)。 相對濕度為85%。"
+                  },
+                  {
+                    "startTime": "2017-03-11 21:00:00",
+                    "endTime": "2017-03-12 00:00:00",
+                    "elementValue": "陰天。 降雨機率 10%。 溫度攝氏20度。 稍有寒意。 偏西風 平均風速小於1級(每秒<=1公尺)。 相對濕度為95%。"
+                  },
+                  {
+                    "startTime": "2017-03-10 03:00:00",
+                    "endTime": "2017-03-10 06:00:00",
+                    "elementValue": "陣雨或雷雨。 降雨機率 80%。 溫度攝氏16度。 寒冷。 偏南風 平均風速小於1級(每秒<=1公尺)。 相對濕度為89%。"
+                  },
+                  {
+                    "startTime": "2017-03-12 06:00:00",
+                    "endTime": "2017-03-12 09:00:00",
+                    "elementValue": "陰天。 降雨機率 10%。 溫度攝氏18度。 稍有寒意。 偏西風 平均風速小於1級(每秒<=1公尺)。 相對濕度為87%。"
+                  },
+                  {
+                    "startTime": "2017-03-10 12:00:00",
+                    "endTime": "2017-03-10 15:00:00",
+                    "elementValue": "陣雨或雷雨。 降雨機率 90%。 溫度攝氏20度。 稍有寒意。 偏東風 平均風速小於1級(每秒<=1公尺)。 相對濕度為91%。"
+                  },
+                  {
+                    "startTime": "2017-03-12 15:00:00",
+                    "endTime": "2017-03-12 18:00:00",
+                    "elementValue": "短暫雨。 降雨機率 30%。 溫度攝氏24度。 舒適。 偏北風 平均風速小於1級(每秒<=1公尺)。 相對濕度為85%。"
+                  },
+                  {
+                    "startTime": "2017-03-10 21:00:00",
+                    "endTime": "2017-03-11 00:00:00",
+                    "elementValue": "陣雨。 降雨機率 70%。 溫度攝氏17度。 稍有寒意。 東南風 平均風速小於1級(每秒<=1公尺)。 相對濕度為92%。"
+                  },
+                  {
+                    "startTime": "2017-03-12 03:00:00",
+                    "endTime": "2017-03-12 06:00:00",
+                    "elementValue": "短暫雨。 降雨機率 30%。 溫度攝氏18度。 稍有寒意。 偏西風 平均風速小於1級(每秒<=1公尺)。 相對濕度為89%。"
+                  },
+                  {
+                    "startTime": "2017-03-10 09:00:00",
+                    "endTime": "2017-03-10 12:00:00",
+                    "elementValue": "陣雨或雷雨。 降雨機率 80%。 溫度攝氏18度。 稍有寒意。 東北風 平均風速1至2級(每秒2公尺)。 相對濕度為91%。"
+                  },
+                  {
+                    "startTime": "2017-03-12 12:00:00",
+                    "endTime": "2017-03-12 15:00:00",
+                    "elementValue": "短暫雨。 降雨機率 30%。 溫度攝氏24度。 舒適。 偏東風 平均風速小於1級(每秒<=1公尺)。 相對濕度為83%。"
+                  },
+                  {
+                    "startTime": "2017-03-10 18:00:00",
+                    "endTime": "2017-03-10 21:00:00",
+                    "elementValue": "陣雨。 降雨機率 70%。 溫度攝氏18度。 稍有寒意。 偏東風 平均風速1至2級(每秒2公尺)。 相對濕度為91%。"
+                  },
+                  {
+                    "startTime": "2017-03-11 03:00:00",
+                    "endTime": "2017-03-11 06:00:00",
+                    "elementValue": "短暫雨。 降雨機率 60%。 溫度攝氏16度。 寒冷。 偏南風 平均風速小於1級(每秒<=1公尺)。 相對濕度為90%。"
+                  },
+                  {
+                    "startTime": "2017-03-10 15:00:00",
+                    "endTime": "2017-03-10 18:00:00",
+                    "elementValue": "陣雨或雷雨。 降雨機率 90%。 溫度攝氏20度。 稍有寒意。 偏東風 平均風速小於1級(每秒<=1公尺)。 相對濕度為89%。"
+                  },
+                  {
+                    "startTime": "2017-03-11 00:00:00",
+                    "endTime": "2017-03-11 03:00:00",
+                    "elementValue": "短暫雨。 降雨機率 60%。 溫度攝氏17度。 稍有寒意。 東南風 平均風速小於1級(每秒<=1公尺)。 相對濕度為93%。"
+                  },
+                  {
+                    "startTime": "2017-03-11 09:00:00",
+                    "endTime": "2017-03-11 12:00:00",
+                    "elementValue": "陰天。 降雨機率 40%。 溫度攝氏20度。 稍有寒意。 偏東風 平均風速小於1級(每秒<=1公尺)。 相對濕度為89%。"
+                  },
+                  {
+                    "startTime": "2017-03-10 00:00:00",
+                    "endTime": "2017-03-10 03:00:00",
+                    "elementValue": "陣雨或雷雨。 降雨機率 80%。 溫度攝氏16度。 寒冷。 東南風 平均風速小於1級(每秒<=1公尺)。 相對濕度為89%。"
+                  },
+                  {
+                    "startTime": "2017-03-11 18:00:00",
+                    "endTime": "2017-03-11 21:00:00",
+                    "elementValue": "陰天。 降雨機率 10%。 溫度攝氏21度。 舒適。 偏西風 平均風速小於1級(每秒<=1公尺)。 相對濕度為94%。"
+                  },
+                  {
+                    "startTime": "2017-03-11 06:00:00",
+                    "endTime": "2017-03-11 09:00:00",
+                    "elementValue": "短暫雨。 降雨機率 40%。 溫度攝氏16度。 寒冷。 偏西風 平均風速小於1級(每秒<=1公尺)。 相對濕度為89%。"
+                  },
+                  {
+                    "startTime": "2017-03-11 15:00:00",
+                    "endTime": "2017-03-11 18:00:00",
+                    "elementValue": "陰天。 降雨機率 20%。 溫度攝氏23度。 舒適。 偏西風 平均風速小於1級(每秒<=1公尺)。 相對濕度為91%。"
+                  },
+                  {
+                    "startTime": "2017-03-09 21:00:00",
+                    "endTime": "2017-03-10 00:00:00",
+                    "elementValue": "陣雨或雷雨。 降雨機率 80%。 溫度攝氏16度。 寒冷。 東南風 平均風速小於1級(每秒<=1公尺)。 相對濕度為88%。"
+                  },
+                  {
+                    "startTime": "2017-03-12 00:00:00",
+                    "endTime": "2017-03-12 03:00:00",
+                    "elementValue": "短暫雨。 降雨機率 30%。 溫度攝氏19度。 稍有寒意。 偏西風 平均風速小於1級(每秒<=1公尺)。 相對濕度為92%。"
+                  },
+                  {
+                    "startTime": "2017-03-10 06:00:00",
+                    "endTime": "2017-03-10 09:00:00",
+                    "elementValue": "陣雨或雷雨。 降雨機率 80%。 溫度攝氏16度。 寒冷。 偏東風 平均風速1至2級(每秒2公尺)。 相對濕度為89%。"
+                  },
+                  {
+                    "startTime": "2017-03-12 09:00:00",
+                    "endTime": "2017-03-12 12:00:00",
+                    "elementValue": "多雲。 降雨機率 10%。 溫度攝氏21度。 舒適。 偏北風 平均風速小於1級(每秒<=1公尺)。 相對濕度為85%。"
+                  }
+                ]
+              },
+              {
+                "elementName": "PoP6h",
+                "elementMeasure": "%",
+                "time": [
+                  {
+                    "startTime": "2017-03-11 12:00:00",
+                    "endTime": "2017-03-11 18:00:00",
+                    "elementValue": "20"
+                  },
+                  {
+                    "startTime": "2017-03-09 18:00:00",
+                    "endTime": "2017-03-10 00:00:00",
+                    "elementValue": "80"
+                  },
+                  {
+                    "startTime": "2017-03-11 00:00:00",
+                    "endTime": "2017-03-11 06:00:00",
+                    "elementValue": "60"
+                  },
+                  {
+                    "startTime": "2017-03-12 06:00:00",
+                    "endTime": "2017-03-12 12:00:00",
+                    "elementValue": "10"
+                  },
+                  {
+                    "startTime": "2017-03-10 12:00:00",
+                    "endTime": "2017-03-10 18:00:00",
+                    "elementValue": "90"
+                  },
+                  {
+                    "startTime": "2017-03-10 00:00:00",
+                    "endTime": "2017-03-10 06:00:00",
+                    "elementValue": "80"
+                  },
+                  {
+                    "startTime": "2017-03-11 18:00:00",
+                    "endTime": "2017-03-12 00:00:00",
+                    "elementValue": "10"
+                  },
+                  {
+                    "startTime": "2017-03-11 06:00:00",
+                    "endTime": "2017-03-11 12:00:00",
+                    "elementValue": "40"
+                  },
+                  {
+                    "startTime": "2017-03-12 12:00:00",
+                    "endTime": "2017-03-12 18:00:00",
+                    "elementValue": "30"
+                  },
+                  {
+                    "startTime": "2017-03-10 18:00:00",
+                    "endTime": "2017-03-11 00:00:00",
+                    "elementValue": "70"
+                  },
+                  {
+                    "startTime": "2017-03-12 00:00:00",
+                    "endTime": "2017-03-12 06:00:00",
+                    "elementValue": "30"
+                  },
+                  {
+                    "startTime": "2017-03-10 06:00:00",
+                    "endTime": "2017-03-10 12:00:00",
+                    "elementValue": "80"
+                  }
+                ]
+              },
+              {
+                "elementName": "Wind",
+                "time": [
+                  {
+                    "dataTime": "2017-03-11 15:00:00",
+                    "elementValue": "",
+                    "parameter": [
+                      {
+                        "parameterName": "風向描述",
+                        "parameterValue": "偏西風"
+                      },
+                      {
+                        "parameterName": "風向縮寫",
+                        "parameterValue": "W",
+                        "parameterUnit": "16方位"
+                      },
+                      {
+                        "parameterName": "風速",
+                        "parameterValue": "<=1",
+                        "parameterUnit": "m/s"
+                      },
+                      {
+                        "parameterName": "風級",
+                        "parameterValue": "<=1",
+                        "parameterUnit": "Beaufort"
+                      }
+                    ]
+                  },
+                  {
+                    "dataTime": "2017-03-10 18:00:00",
+                    "elementValue": "",
+                    "parameter": [
+                      {
+                        "parameterName": "風級",
+                        "parameterValue": "2",
+                        "parameterUnit": "Beaufort"
+                      },
+                      {
+                        "parameterName": "風速",
+                        "parameterValue": "2",
+                        "parameterUnit": "m/s"
+                      },
+                      {
+                        "parameterName": "風向描述",
+                        "parameterValue": "偏東風"
+                      },
+                      {
+                        "parameterName": "風向縮寫",
+                        "parameterValue": "E",
+                        "parameterUnit": "16方位"
+                      }
+                    ]
+                  },
+                  {
+                    "dataTime": "2017-03-11 18:00:00",
+                    "elementValue": "",
+                    "parameter": [
+                      {
+                        "parameterName": "風級",
+                        "parameterValue": "<=1",
+                        "parameterUnit": "Beaufort"
+                      },
+                      {
+                        "parameterName": "風向縮寫",
+                        "parameterValue": "W",
+                        "parameterUnit": "16方位"
+                      },
+                      {
+                        "parameterName": "風向描述",
+                        "parameterValue": "偏西風"
+                      },
+                      {
+                        "parameterName": "風速",
+                        "parameterValue": "<=1",
+                        "parameterUnit": "m/s"
+                      }
+                    ]
+                  },
+                  {
+                    "dataTime": "2017-03-10 21:00:00",
+                    "elementValue": "",
+                    "parameter": [
+                      {
+                        "parameterName": "風速",
+                        "parameterValue": "<=1",
+                        "parameterUnit": "m/s"
+                      },
+                      {
+                        "parameterName": "風級",
+                        "parameterValue": "<=1",
+                        "parameterUnit": "Beaufort"
+                      },
+                      {
+                        "parameterName": "風向描述",
+                        "parameterValue": "東南風"
+                      },
+                      {
+                        "parameterName": "風向縮寫",
+                        "parameterValue": "SE",
+                        "parameterUnit": "16方位"
+                      }
+                    ]
+                  },
+                  {
+                    "dataTime": "2017-03-10 00:00:00",
+                    "elementValue": "",
+                    "parameter": [
+                      {
+                        "parameterName": "風級",
+                        "parameterValue": "<=1",
+                        "parameterUnit": "Beaufort"
+                      },
+                      {
+                        "parameterName": "風向描述",
+                        "parameterValue": "東南風"
+                      },
+                      {
+                        "parameterName": "風向縮寫",
+                        "parameterValue": "SE",
+                        "parameterUnit": "16方位"
+                      },
+                      {
+                        "parameterName": "風速",
+                        "parameterValue": "<=1",
+                        "parameterUnit": "m/s"
+                      }
+                    ]
+                  },
+                  {
+                    "dataTime": "2017-03-12 12:00:00",
+                    "elementValue": "",
+                    "parameter": [
+                      {
+                        "parameterName": "風級",
+                        "parameterValue": "<=1",
+                        "parameterUnit": "Beaufort"
+                      },
+                      {
+                        "parameterName": "風向描述",
+                        "parameterValue": "偏東風"
+                      },
+                      {
+                        "parameterName": "風速",
+                        "parameterValue": "<=1",
+                        "parameterUnit": "m/s"
+                      },
+                      {
+                        "parameterName": "風向縮寫",
+                        "parameterValue": "E",
+                        "parameterUnit": "16方位"
+                      }
+                    ]
+                  },
+                  {
+                    "dataTime": "2017-03-09 18:00:00",
+                    "elementValue": "",
+                    "parameter": [
+                      {
+                        "parameterName": "風向縮寫",
+                        "parameterValue": "S",
+                        "parameterUnit": "16方位"
+                      },
+                      {
+                        "parameterName": "風速",
+                        "parameterValue": "<=1",
+                        "parameterUnit": "m/s"
+                      },
+                      {
+                        "parameterName": "風向描述",
+                        "parameterValue": "偏南風"
+                      },
+                      {
+                        "parameterName": "風級",
+                        "parameterValue": "<=1",
+                        "parameterUnit": "Beaufort"
+                      }
+                    ]
+                  },
+                  {
+                    "dataTime": "2017-03-12 06:00:00",
+                    "elementValue": "",
+                    "parameter": [
+                      {
+                        "parameterName": "風向縮寫",
+                        "parameterValue": "W",
+                        "parameterUnit": "16方位"
+                      },
+                      {
+                        "parameterName": "風級",
+                        "parameterValue": "<=1",
+                        "parameterUnit": "Beaufort"
+                      },
+                      {
+                        "parameterName": "風速",
+                        "parameterValue": "<=1",
+                        "parameterUnit": "m/s"
+                      },
+                      {
+                        "parameterName": "風向描述",
+                        "parameterValue": "偏西風"
+                      }
+                    ]
+                  },
+                  {
+                    "dataTime": "2017-03-11 09:00:00",
+                    "elementValue": "",
+                    "parameter": [
+                      {
+                        "parameterName": "風向縮寫",
+                        "parameterValue": "E",
+                        "parameterUnit": "16方位"
+                      },
+                      {
+                        "parameterName": "風向描述",
+                        "parameterValue": "偏東風"
+                      },
+                      {
+                        "parameterName": "風級",
+                        "parameterValue": "<=1",
+                        "parameterUnit": "Beaufort"
+                      },
+                      {
+                        "parameterName": "風速",
+                        "parameterValue": "<=1",
+                        "parameterUnit": "m/s"
+                      }
+                    ]
+                  },
+                  {
+                    "dataTime": "2017-03-12 09:00:00",
+                    "elementValue": "",
+                    "parameter": [
+                      {
+                        "parameterName": "風級",
+                        "parameterValue": "<=1",
+                        "parameterUnit": "Beaufort"
+                      },
+                      {
+                        "parameterName": "風速",
+                        "parameterValue": "<=1",
+                        "parameterUnit": "m/s"
+                      },
+                      {
+                        "parameterName": "風向縮寫",
+                        "parameterValue": "N",
+                        "parameterUnit": "16方位"
+                      },
+                      {
+                        "parameterName": "風向描述",
+                        "parameterValue": "偏北風"
+                      }
+                    ]
+                  },
+                  {
+                    "dataTime": "2017-03-09 21:00:00",
+                    "elementValue": "",
+                    "parameter": [
+                      {
+                        "parameterName": "風向縮寫",
+                        "parameterValue": "SE",
+                        "parameterUnit": "16方位"
+                      },
+                      {
+                        "parameterName": "風向描述",
+                        "parameterValue": "東南風"
+                      },
+                      {
+                        "parameterName": "風級",
+                        "parameterValue": "<=1",
+                        "parameterUnit": "Beaufort"
+                      },
+                      {
+                        "parameterName": "風速",
+                        "parameterValue": "<=1",
+                        "parameterUnit": "m/s"
+                      }
+                    ]
+                  },
+                  {
+                    "dataTime": "2017-03-11 12:00:00",
+                    "elementValue": "",
+                    "parameter": [
+                      {
+                        "parameterName": "風向縮寫",
+                        "parameterValue": "E",
+                        "parameterUnit": "16方位"
+                      },
+                      {
+                        "parameterName": "風級",
+                        "parameterValue": "<=1",
+                        "parameterUnit": "Beaufort"
+                      },
+                      {
+                        "parameterName": "風向描述",
+                        "parameterValue": "偏東風"
+                      },
+                      {
+                        "parameterName": "風速",
+                        "parameterValue": "<=1",
+                        "parameterUnit": "m/s"
+                      }
+                    ]
+                  },
+                  {
+                    "dataTime": "2017-03-10 15:00:00",
+                    "elementValue": "",
+                    "parameter": [
+                      {
+                        "parameterName": "風速",
+                        "parameterValue": "<=1",
+                        "parameterUnit": "m/s"
+                      },
+                      {
+                        "parameterName": "風級",
+                        "parameterValue": "<=1",
+                        "parameterUnit": "Beaufort"
+                      },
+                      {
+                        "parameterName": "風向縮寫",
+                        "parameterValue": "E",
+                        "parameterUnit": "16方位"
+                      },
+                      {
+                        "parameterName": "風向描述",
+                        "parameterValue": "偏東風"
+                      }
+                    ]
+                  },
+                  {
+                    "dataTime": "2017-03-10 09:00:00",
+                    "elementValue": "",
+                    "parameter": [
+                      {
+                        "parameterName": "風向縮寫",
+                        "parameterValue": "NE",
+                        "parameterUnit": "16方位"
+                      },
+                      {
+                        "parameterName": "風向描述",
+                        "parameterValue": "東北風"
+                      },
+                      {
+                        "parameterName": "風速",
+                        "parameterValue": "2",
+                        "parameterUnit": "m/s"
+                      },
+                      {
+                        "parameterName": "風級",
+                        "parameterValue": "2",
+                        "parameterUnit": "Beaufort"
+                      }
+                    ]
+                  },
+                  {
+                    "dataTime": "2017-03-12 00:00:00",
+                    "elementValue": "",
+                    "parameter": [
+                      {
+                        "parameterName": "風向描述",
+                        "parameterValue": "偏西風"
+                      },
+                      {
+                        "parameterName": "風級",
+                        "parameterValue": "<=1",
+                        "parameterUnit": "Beaufort"
+                      },
+                      {
+                        "parameterName": "風速",
+                        "parameterValue": "<=1",
+                        "parameterUnit": "m/s"
+                      },
+                      {
+                        "parameterName": "風向縮寫",
+                        "parameterValue": "W",
+                        "parameterUnit": "16方位"
+                      }
+                    ]
+                  },
+                  {
+                    "dataTime": "2017-03-10 12:00:00",
+                    "elementValue": "",
+                    "parameter": [
+                      {
+                        "parameterName": "風速",
+                        "parameterValue": "<=1",
+                        "parameterUnit": "m/s"
+                      },
+                      {
+                        "parameterName": "風向描述",
+                        "parameterValue": "偏東風"
+                      },
+                      {
+                        "parameterName": "風級",
+                        "parameterValue": "<=1",
+                        "parameterUnit": "Beaufort"
+                      },
+                      {
+                        "parameterName": "風向縮寫",
+                        "parameterValue": "E",
+                        "parameterUnit": "16方位"
+                      }
+                    ]
+                  },
+                  {
+                    "dataTime": "2017-03-12 03:00:00",
+                    "elementValue": "",
+                    "parameter": [
+                      {
+                        "parameterName": "風級",
+                        "parameterValue": "<=1",
+                        "parameterUnit": "Beaufort"
+                      },
+                      {
+                        "parameterName": "風向縮寫",
+                        "parameterValue": "W",
+                        "parameterUnit": "16方位"
+                      },
+                      {
+                        "parameterName": "風向描述",
+                        "parameterValue": "偏西風"
+                      },
+                      {
+                        "parameterName": "風速",
+                        "parameterValue": "<=1",
+                        "parameterUnit": "m/s"
+                      }
+                    ]
+                  },
+                  {
+                    "dataTime": "2017-03-11 06:00:00",
+                    "elementValue": "",
+                    "parameter": [
+                      {
+                        "parameterName": "風級",
+                        "parameterValue": "<=1",
+                        "parameterUnit": "Beaufort"
+                      },
+                      {
+                        "parameterName": "風向描述",
+                        "parameterValue": "偏西風"
+                      },
+                      {
+                        "parameterName": "風速",
+                        "parameterValue": "<=1",
+                        "parameterUnit": "m/s"
+                      },
+                      {
+                        "parameterName": "風向縮寫",
+                        "parameterValue": "W",
+                        "parameterUnit": "16方位"
+                      }
+                    ]
+                  },
+                  {
+                    "dataTime": "2017-03-11 00:00:00",
+                    "elementValue": "",
+                    "parameter": [
+                      {
+                        "parameterName": "風級",
+                        "parameterValue": "<=1",
+                        "parameterUnit": "Beaufort"
+                      },
+                      {
+                        "parameterName": "風速",
+                        "parameterValue": "<=1",
+                        "parameterUnit": "m/s"
+                      },
+                      {
+                        "parameterName": "風向縮寫",
+                        "parameterValue": "SE",
+                        "parameterUnit": "16方位"
+                      },
+                      {
+                        "parameterName": "風向描述",
+                        "parameterValue": "東南風"
+                      }
+                    ]
+                  },
+                  {
+                    "dataTime": "2017-03-12 15:00:00",
+                    "elementValue": "",
+                    "parameter": [
+                      {
+                        "parameterName": "風級",
+                        "parameterValue": "<=1",
+                        "parameterUnit": "Beaufort"
+                      },
+                      {
+                        "parameterName": "風向縮寫",
+                        "parameterValue": "N",
+                        "parameterUnit": "16方位"
+                      },
+                      {
+                        "parameterName": "風速",
+                        "parameterValue": "<=1",
+                        "parameterUnit": "m/s"
+                      },
+                      {
+                        "parameterName": "風向描述",
+                        "parameterValue": "偏北風"
+                      }
+                    ]
+                  },
+                  {
+                    "dataTime": "2017-03-10 03:00:00",
+                    "elementValue": "",
+                    "parameter": [
+                      {
+                        "parameterName": "風向縮寫",
+                        "parameterValue": "S",
+                        "parameterUnit": "16方位"
+                      },
+                      {
+                        "parameterName": "風速",
+                        "parameterValue": "<=1",
+                        "parameterUnit": "m/s"
+                      },
+                      {
+                        "parameterName": "風級",
+                        "parameterValue": "<=1",
+                        "parameterUnit": "Beaufort"
+                      },
+                      {
+                        "parameterName": "風向描述",
+                        "parameterValue": "偏南風"
+                      }
+                    ]
+                  },
+                  {
+                    "dataTime": "2017-03-11 03:00:00",
+                    "elementValue": "",
+                    "parameter": [
+                      {
+                        "parameterName": "風速",
+                        "parameterValue": "<=1",
+                        "parameterUnit": "m/s"
+                      },
+                      {
+                        "parameterName": "風向描述",
+                        "parameterValue": "偏南風"
+                      },
+                      {
+                        "parameterName": "風級",
+                        "parameterValue": "<=1",
+                        "parameterUnit": "Beaufort"
+                      },
+                      {
+                        "parameterName": "風向縮寫",
+                        "parameterValue": "S",
+                        "parameterUnit": "16方位"
+                      }
+                    ]
+                  },
+                  {
+                    "dataTime": "2017-03-10 06:00:00",
+                    "elementValue": "",
+                    "parameter": [
+                      {
+                        "parameterName": "風向縮寫",
+                        "parameterValue": "E",
+                        "parameterUnit": "16方位"
+                      },
+                      {
+                        "parameterName": "風向描述",
+                        "parameterValue": "偏東風"
+                      },
+                      {
+                        "parameterName": "風速",
+                        "parameterValue": "2",
+                        "parameterUnit": "m/s"
+                      },
+                      {
+                        "parameterName": "風級",
+                        "parameterValue": "2",
+                        "parameterUnit": "Beaufort"
+                      }
+                    ]
+                  },
+                  {
+                    "dataTime": "2017-03-11 21:00:00",
+                    "elementValue": "",
+                    "parameter": [
+                      {
+                        "parameterName": "風級",
+                        "parameterValue": "<=1",
+                        "parameterUnit": "Beaufort"
+                      },
+                      {
+                        "parameterName": "風向描述",
+                        "parameterValue": "偏西風"
+                      },
+                      {
+                        "parameterName": "風速",
+                        "parameterValue": "<=1",
+                        "parameterUnit": "m/s"
+                      },
+                      {
+                        "parameterName": "風向縮寫",
+                        "parameterValue": "W",
+                        "parameterUnit": "16方位"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "elementName": "Td",
+                "elementMeasure": "C",
+                "time": [
+                  {
+                    "dataTime": "2017-03-11 15:00:00",
+                    "elementValue": "22.0"
+                  },
+                  {
+                    "dataTime": "2017-03-10 18:00:00",
+                    "elementValue": "17.0"
+                  },
+                  {
+                    "dataTime": "2017-03-11 18:00:00",
+                    "elementValue": "20.0"
+                  },
+                  {
+                    "dataTime": "2017-03-10 21:00:00",
+                    "elementValue": "16.0"
+                  },
+                  {
+                    "dataTime": "2017-03-10 00:00:00",
+                    "elementValue": "14.0"
+                  },
+                  {
+                    "dataTime": "2017-03-12 12:00:00",
+                    "elementValue": "21.0"
+                  },
+                  {
+                    "dataTime": "2017-03-09 18:00:00",
+                    "elementValue": "13.0"
+                  },
+                  {
+                    "dataTime": "2017-03-12 06:00:00",
+                    "elementValue": "15.0"
+                  },
+                  {
+                    "dataTime": "2017-03-11 09:00:00",
+                    "elementValue": "18.0"
+                  },
+                  {
+                    "dataTime": "2017-03-09 21:00:00",
+                    "elementValue": "14.0"
+                  },
+                  {
+                    "dataTime": "2017-03-12 09:00:00",
+                    "elementValue": "18.0"
+                  },
+                  {
+                    "dataTime": "2017-03-11 12:00:00",
+                    "elementValue": "21.0"
+                  },
+                  {
+                    "dataTime": "2017-03-10 15:00:00",
+                    "elementValue": "18.0"
+                  },
+                  {
+                    "dataTime": "2017-03-10 09:00:00",
+                    "elementValue": "16.0"
+                  },
+                  {
+                    "dataTime": "2017-03-12 00:00:00",
+                    "elementValue": "18.0"
+                  },
+                  {
+                    "dataTime": "2017-03-10 12:00:00",
+                    "elementValue": "18.0"
+                  },
+                  {
+                    "dataTime": "2017-03-12 03:00:00",
+                    "elementValue": "16.0"
+                  },
+                  {
+                    "dataTime": "2017-03-11 06:00:00",
+                    "elementValue": "14.0"
+                  },
+                  {
+                    "dataTime": "2017-03-11 00:00:00",
+                    "elementValue": "15.0"
+                  },
+                  {
+                    "dataTime": "2017-03-12 15:00:00",
+                    "elementValue": "21.0"
+                  },
+                  {
+                    "dataTime": "2017-03-10 03:00:00",
+                    "elementValue": "14.0"
+                  },
+                  {
+                    "dataTime": "2017-03-11 03:00:00",
+                    "elementValue": "15.0"
+                  },
+                  {
+                    "dataTime": "2017-03-10 06:00:00",
+                    "elementValue": "14.0"
+                  },
+                  {
+                    "dataTime": "2017-03-11 21:00:00",
+                    "elementValue": "19.0"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
