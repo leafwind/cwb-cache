@@ -158,6 +158,7 @@ def dump_dict_to_json_file(dict_data, filename):
         json.dump(dict_data, fp)
 
 if __name__ == '__main__':
+    # TODO: use F-D0047-089
     json_data = get_data_from_cwb('F-C0032-001', AUTH_KEY, {})
     dict_data = parse_json_to_dict_level_1_2(json_data)
     # dump_dict_to_json_file(dict_data, 'output.json')
