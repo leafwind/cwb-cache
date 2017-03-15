@@ -9,6 +9,7 @@ import sqlite3
 
 from cwb_auth_key import AUTH_KEY
 from constants import CWB_URL, CWB_DB_PATH
+from dataset_ids import dataset_ids_level_3
 
 logging.basicConfig(level=logging.DEBUG)
 
@@ -54,7 +55,7 @@ def insert_data_level_3(dict_data):
         AT = dict_data[key]['AT']
         PoP = 0
         CI = ''
-        insert_sql = "INSERT OR REPLACE INTO {} VALUES (\'{}\', \'{}\', {}, {}, {}, {}, {}, {}, \'{}\')".format('level_3', location_name.encode('utf-8'), sub_location_name.encode('utf-8'), start_time_ts, end_time_ts, Wx, T, AT, PoP, CI)
+        insert_sql = "INSERT OR REPLACE INTO {} VALUES ({}, {}, \'{}\', \'{}\', {}, {}, {}, {}, \'{}\')".format('level_3', start_time_ts, end_time_ts, location_name.encode('utf-8'), sub_location_name.encode('utf-8'), Wx, T, AT, PoP, CI)
         logging.debug(insert_sql)
         c.execute(insert_sql)
     conn.commit()
@@ -163,8 +164,9 @@ if __name__ == '__main__':
     check_or_create_table_level_1_2()
     insert_data_level_1_2(dict_data)
 
-    json_data = get_data_from_cwb('F-D0047-001', AUTH_KEY, {})
-    dict_data = parse_json_to_dict_level_3(json_data)
-    # print(dict_data)
     check_or_create_table_level_3()
-    insert_data_level_3(dict_data)
+    for dataset_id in dataset_ids_level_3:
+        json_data = get_data_from_cwb(dataset_id, AUTH_KEY, {})
+        dict_data = parse_json_to_dict_level_3(json_data)
+        # print(dict_data)
+        insert_data_level_3(dict_data)
