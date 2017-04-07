@@ -3,7 +3,7 @@
 
 [資料使用說明](http://opendata.cwb.gov.tw/usages)
 
-## RESTful API document
+## CWB RESTful API document
 
 [中央氣象局氣象資料開放平臺 – 資料擷取使用說明(pdf)](http://opendata.cwb.gov.tw/opendatadoc/CWB_Opendata_API_V1.1.pdf)
 
@@ -38,3 +38,11 @@
 ```
 http://opendata.cwb.gov.tw/api/v1/rest/datastore/{dataid}
 ```
+
+## EPA 空氣品質預報資料
+
+### 說明網址
+
+[空氣品質預報資料](http://opendata.epa.gov.tw/Data/Contents/AQFN/)
+
+[應用程式存取網址](http://opendata.epa.gov.tw/webapi/api/rest/datastore/355000000I-000019?sort=PublishTime&offset=0&limit=1000)
