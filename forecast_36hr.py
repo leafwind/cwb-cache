@@ -8,7 +8,7 @@ import requests
 import sqlite3
 
 from cwb_auth_key import AUTH_KEY
-from constants import CWB_URL, CWB_DB_PATH
+from constants import CWB_URL, CWB_DB_PATH, TABLE_WEATHER_LEVEL_1_2
 from dataset_ids import dataset_ids_level_3
 
 logging.basicConfig(level=logging.DEBUG)
@@ -17,7 +17,7 @@ def check_or_create_table_level_1_2():
     '''第一、二級行政區'''
     conn = sqlite3.connect(CWB_DB_PATH)
     c = conn.cursor()
-    c.execute('''CREATE TABLE IF NOT EXISTS {} (end_ts int, location text, Wx int, MaxT int, MinT int, PoP int, CI text, PRIMARY KEY (end_ts, location))'''.format('level_1_2'))
+    c.execute('''CREATE TABLE IF NOT EXISTS {} (end_ts int, location text, Wx int, MaxT int, MinT int, PoP int, CI text, PRIMARY KEY (end_ts, location))'''.format(TABLE_WEATHER_LEVEL_1_2))
     conn.commit()
     conn.close()
 
@@ -39,7 +39,7 @@ def insert_data_level_1_2(dict_data):
             MinT = dict_data[loc][time]['MinT']
             PoP = dict_data[loc][time]['PoP']
             CI = dict_data[loc][time]['CI']
-            insert_sql = "INSERT OR REPLACE INTO {} VALUES ({}, \'{}\', {}, {}, {}, {}, \'{}\')".format('level_1_2', time, loc.encode('utf-8'), Wx, MaxT, MinT, PoP, CI.encode('utf-8'))
+            insert_sql = "INSERT OR REPLACE INTO {} VALUES ({}, \'{}\', {}, {}, {}, {}, \'{}\')".format(TABLE_WEATHER_LEVEL_1_2, time, loc.encode('utf-8'), Wx, MaxT, MinT, PoP, CI.encode('utf-8'))
             logging.debug(insert_sql)
             c.execute(insert_sql)
     conn.commit()
