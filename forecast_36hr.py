@@ -8,7 +8,7 @@ import requests
 import sqlite3
 
 from cwb_auth_key import AUTH_KEY
-from constants import CWB_URL, CWB_DB_PATH, TABLE_WEATHER_LEVEL_1_2
+from constants import CWB_URL, CWB_DB_PATH, TABLE_WEATHER_LEVEL_1_2, TABLE_WEATHER_LEVEL_3
 from dataset_ids import dataset_ids_level_3
 
 logging.basicConfig(level=logging.DEBUG)
@@ -25,7 +25,7 @@ def check_or_create_table_level_3():
     '''第三級行政區'''
     conn = sqlite3.connect(CWB_DB_PATH)
     c = conn.cursor()
-    c.execute('''CREATE TABLE IF NOT EXISTS {} (start_ts int, end_ts int, location text, sub_location text, Wx int, T int, AT int, PoP int, CI text, PRIMARY KEY (start_ts, end_ts, location, sub_location))'''.format('level_3'))
+    c.execute('''CREATE TABLE IF NOT EXISTS {} (start_ts int, end_ts int, location text, sub_location text, Wx int, T int, AT int, PoP int, CI text, PRIMARY KEY (start_ts, end_ts, location, sub_location))'''.format(TABLE_WEATHER_LEVEL_3))
     conn.commit()
     conn.close()
 
@@ -55,7 +55,7 @@ def insert_data_level_3(dict_data):
         AT = dict_data[key]['AT']
         PoP = 0
         CI = ''
-        insert_sql = "INSERT OR REPLACE INTO {} VALUES ({}, {}, \'{}\', \'{}\', {}, {}, {}, {}, \'{}\')".format('level_3', start_time_ts, end_time_ts, location_name.encode('utf-8'), sub_location_name.encode('utf-8'), Wx, T, AT, PoP, CI)
+        insert_sql = "INSERT OR REPLACE INTO {} VALUES ({}, {}, \'{}\', \'{}\', {}, {}, {}, {}, \'{}\')".format(TABLE_WEATHER_LEVEL_3, start_time_ts, end_time_ts, location_name.encode('utf-8'), sub_location_name.encode('utf-8'), Wx, T, AT, PoP, CI)
         logging.debug(insert_sql)
         c.execute(insert_sql)
     conn.commit()

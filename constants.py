@@ -5,3 +5,4 @@ EPA_AQFN_URL = 'http://opendata.epa.gov.tw/webapi/api/rest/datastore/355000000I-
 
 TABLE_AQI = 'table_AQI'
 TABLE_WEATHER_LEVEL_1_2 = 'level_1_2'
+TABLE_WEATHER_LEVEL_3 = 'level_3'
