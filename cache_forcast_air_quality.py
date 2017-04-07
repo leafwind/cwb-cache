@@ -72,7 +72,6 @@ def simplify_data(records):
 if __name__ == '__main__':
     dict_data = get_data_from_EPA()
     data = simplify_data(dict_data)
-    # dict_data = parse_json_to_dict_level_1_2(json_data)
     # check_or_create_table_level_1_2()
     # insert_data_level_1_2(dict_data)
 
