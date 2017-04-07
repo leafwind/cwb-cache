@@ -46,3 +46,7 @@ http://opendata.cwb.gov.tw/api/v1/rest/datastore/{dataid}
 [空氣品質預報資料](http://opendata.epa.gov.tw/Data/Contents/AQFN/)
 
 [應用程式存取網址](http://opendata.epa.gov.tw/webapi/api/rest/datastore/355000000I-000019?sort=PublishTime&offset=0&limit=1000)
+
+### 空品區分區
+
+[空氣品質區範圍圖](http://gis.epa.gov.tw/epagis102/RWD/index.aspx?lid=10500050)
